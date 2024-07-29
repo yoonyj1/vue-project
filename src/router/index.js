@@ -1,9 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import TemplateOption from '@/pages/OptionAPI/TemplateOption.vue';
-import About from '@/pages/About.vue';
+import TemplateOption from '@/pages/TemplateOption.vue';
 
 const routes = [
-  
   {
     path: '/TemplateOption',
     name: 'TemplateOption',
