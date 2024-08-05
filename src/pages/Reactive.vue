@@ -15,18 +15,18 @@
 </template>
 
 <script>
-import { reactive } from 'vue';
+import { reactive, ref } from 'vue';
 
 export default {
   setup() {
     const state = reactive({ count: 0 })
-    const num = reactive(0)
+    const num = ref(0)
 
     function increment() {
       state.count++
     }
     function increment2() {
-      num++
+      num.value++
     }
     return {
       state,
