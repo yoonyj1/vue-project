@@ -8,6 +8,7 @@
     <div class="index">
       <ul>
         <li><router-link to="/TemplateOption">템플릿 문법</router-link></li>
+        <li><router-link to="/Reactive">반응형</router-link></li>
       </ul>
     </div>
     <div class="content">

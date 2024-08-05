@@ -14,6 +14,7 @@
       <br />
       <input v-bind:value="vbindTest" />
     </div>
+
     <div class="optionAPI"></div>
   </div>
 </template>
@@ -25,6 +26,10 @@ export default {
       escape: "{{ }}",
       htmlTest: "<h1>h1 test</h1>",
       vbindTest: "렌더링",
+      objectOfAttrs: {
+        id: "container",
+        class: "wrapper",
+      },
     };
   },
 };
